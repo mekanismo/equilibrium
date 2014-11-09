@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34CA09341A102B790040EAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CA09331A102B790040EAEC /* AppDelegate.swift */; };
+		34CA09361A102B790040EAEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CA09351A102B790040EAEC /* ViewController.swift */; };
+		34CA09391A102B790040EAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CA09371A102B790040EAEC /* Main.storyboard */; };
+		34CA093B1A102B790040EAEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CA093A1A102B790040EAEC /* Images.xcassets */; };
+		34CA093E1A102B790040EAEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34CA093C1A102B790040EAEC /* LaunchScreen.xib */; };
+		34CA094A1A102B790040EAEC /* EquilibriumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CA09491A102B790040EAEC /* EquilibriumTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34CA09441A102B790040EAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CA09261A102B790040EAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CA092D1A102B790040EAEC;
+			remoteInfo = Equilibrium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34CA092E1A102B790040EAEC /* Equilibrium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Equilibrium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CA09321A102B790040EAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CA09331A102B790040EAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34CA09351A102B790040EAEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34CA09381A102B790040EAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34CA093A1A102B790040EAEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34CA093D1A102B790040EAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34CA09431A102B790040EAEC /* EquilibriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquilibriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CA09481A102B790040EAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CA09491A102B790040EAEC /* EquilibriumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilibriumTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CA092B1A102B790040EAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA09401A102B790040EAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34CA09251A102B790040EAEC = {
+			isa = PBXGroup;
+			children = (
+				34CA09301A102B790040EAEC /* Equilibrium */,
+				34CA09461A102B790040EAEC /* EquilibriumTests */,
+				34CA092F1A102B790040EAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34CA092F1A102B790040EAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CA092E1A102B790040EAEC /* Equilibrium.app */,
+				34CA09431A102B790040EAEC /* EquilibriumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CA09301A102B790040EAEC /* Equilibrium */ = {
+			isa = PBXGroup;
+			children = (
+				34CA09331A102B790040EAEC /* AppDelegate.swift */,
+				34CA09351A102B790040EAEC /* ViewController.swift */,
+				34CA09371A102B790040EAEC /* Main.storyboard */,
+				34CA093A1A102B790040EAEC /* Images.xcassets */,
+				34CA093C1A102B790040EAEC /* LaunchScreen.xib */,
+				34CA09311A102B790040EAEC /* Supporting Files */,
+			);
+			path = Equilibrium;
+			sourceTree = "<group>";
+		};
+		34CA09311A102B790040EAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34CA09321A102B790040EAEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34CA09461A102B790040EAEC /* EquilibriumTests */ = {
+			isa = PBXGroup;
+			children = (
+				34CA09491A102B790040EAEC /* EquilibriumTests.swift */,
+				34CA09471A102B790040EAEC /* Supporting Files */,
+			);
+			path = EquilibriumTests;
+			sourceTree = "<group>";
+		};
+		34CA09471A102B790040EAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34CA09481A102B790040EAEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CA092D1A102B790040EAEC /* Equilibrium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CA094D1A102B790040EAEC /* Build configuration list for PBXNativeTarget "Equilibrium" */;
+			buildPhases = (
+				34CA092A1A102B790040EAEC /* Sources */,
+				34CA092B1A102B790040EAEC /* Frameworks */,
+				34CA092C1A102B790040EAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Equilibrium;
+			productName = Equilibrium;
+			productReference = 34CA092E1A102B790040EAEC /* Equilibrium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34CA09421A102B790040EAEC /* EquilibriumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CA09501A102B790040EAEC /* Build configuration list for PBXNativeTarget "EquilibriumTests" */;
+			buildPhases = (
+				34CA093F1A102B790040EAEC /* Sources */,
+				34CA09401A102B790040EAEC /* Frameworks */,
+				34CA09411A102B790040EAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CA09451A102B790040EAEC /* PBXTargetDependency */,
+			);
+			name = EquilibriumTests;
+			productName = EquilibriumTests;
+			productReference = 34CA09431A102B790040EAEC /* EquilibriumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CA09261A102B790040EAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "SETI Institute";
+				TargetAttributes = {
+					34CA092D1A102B790040EAEC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					34CA09421A102B790040EAEC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 34CA092D1A102B790040EAEC;
+					};
+				};
+			};
+			buildConfigurationList = 34CA09291A102B790040EAEC /* Build configuration list for PBXProject "Equilibrium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34CA09251A102B790040EAEC;
+			productRefGroup = 34CA092F1A102B790040EAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CA092D1A102B790040EAEC /* Equilibrium */,
+				34CA09421A102B790040EAEC /* EquilibriumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CA092C1A102B790040EAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA09391A102B790040EAEC /* Main.storyboard in Resources */,
+				34CA093E1A102B790040EAEC /* LaunchScreen.xib in Resources */,
+				34CA093B1A102B790040EAEC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA09411A102B790040EAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CA092A1A102B790040EAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA09361A102B790040EAEC /* ViewController.swift in Sources */,
+				34CA09341A102B790040EAEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA093F1A102B790040EAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA094A1A102B790040EAEC /* EquilibriumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34CA09451A102B790040EAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CA092D1A102B790040EAEC /* Equilibrium */;
+			targetProxy = 34CA09441A102B790040EAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34CA09371A102B790040EAEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CA09381A102B790040EAEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34CA093C1A102B790040EAEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CA093D1A102B790040EAEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34CA094B1A102B790040EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		34CA094C1A102B790040EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34CA094E1A102B790040EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Equilibrium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34CA094F1A102B790040EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Equilibrium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34CA09511A102B790040EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EquilibriumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Equilibrium.app/Equilibrium";
+			};
+			name = Debug;
+		};
+		34CA09521A102B790040EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EquilibriumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Equilibrium.app/Equilibrium";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CA09291A102B790040EAEC /* Build configuration list for PBXProject "Equilibrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CA094B1A102B790040EAEC /* Debug */,
+				34CA094C1A102B790040EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CA094D1A102B790040EAEC /* Build configuration list for PBXNativeTarget "Equilibrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CA094E1A102B790040EAEC /* Debug */,
+				34CA094F1A102B790040EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34CA09501A102B790040EAEC /* Build configuration list for PBXNativeTarget "EquilibriumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CA09511A102B790040EAEC /* Debug */,
+				34CA09521A102B790040EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34CA09261A102B790040EAEC /* Project object */;
+}

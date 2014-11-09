@@ -1,4 +1,4 @@
 equilibrium
 ===========
 
-SETI based game.
+SETI based game by Gabriel Alvarado
